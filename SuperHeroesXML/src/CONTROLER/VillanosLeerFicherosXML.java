@@ -118,6 +118,11 @@ class GestionContenidoVillanos extends DefaultHandler {
                        nuevo.setMascara(Boolean.valueOf(car));
                    }
                    
+                   if(Fichero.equals("Genero")){
+                       
+                       nuevo.setGenero((car).charAt(0));
+                   }
+                   
                    if(Fichero.equals("Nombre_SuperHeroe")){
                        
                        nuevo.setNombreSuperHeroe(String.valueOf(car));

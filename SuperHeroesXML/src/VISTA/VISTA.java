@@ -2681,8 +2681,8 @@ public class VISTA extends javax.swing.JFrame {
     private void jButtonCerrarVentana2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCerrarVentana2ActionPerformed
         // TODO add your handling code here:
         
-        for(int j=0; j<superheroes.size(); j++)
-        System.out.println("Array villanos antes de salir" + villanos.get(j).getNombreVillano() + villanos.get(j).getId_Villano());
+        for(int j=0; j<villanos.size(); j++)
+            System.out.println("Array villanos antes de salir" + villanos.get(j).getNombreVillano() + villanos.get(j).getId_Villano() + villanos.get(j).getGenero());
 
         
         try {

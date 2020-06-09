@@ -84,6 +84,7 @@ public class VillanosEscribirFicherosXML {
                CrearElemento("Nombre",villanosAUX.get(i).getNombreVillano(),raiz, document);
                CrearElemento("Habilidad", villanosAUX.get(i).getHabilidad(), raiz, document);
                CrearElemento("Mascara", Boolean.toString(villanosAUX.get(i).isMascara()), raiz, document);
+               CrearElemento("Genero", Character.toString(villanosAUX.get(i).getGenero()), raiz, document);
                CrearElemento("Nombre_SuperHeroe",(villanosAUX.get(i).getNombreSuperHeroe()), raiz, document);
               
             }//fin del for que recorre el vector
